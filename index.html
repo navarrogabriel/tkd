@@ -5,19 +5,74 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/script.js"</script>
-	<script src="js/bootrstrap.min.js"/></script>
+	<script src="js/bootrstrap.min.js"></script>
 	<title>Página Principal</title>
+	<link rel="stylesheet" href="css/Estilos.css">
 </head>
 <body>
-	<div id="content">
-		<div id="buttonsDiv">
-			<button id="dosMinutos" class="btn btn-primary">2:00 minutos</button>
-			<button id="minutoMedio" class="btn btn-secondary">1:30 minutos</button>
-			<button id="unMinuto" class="btn btn-primary">1:00 minuto</button>
-		</div>
-		<div id=countDownDiv>
-			<p id="countdown"></p>
-		</div>
+		
+	<div id="Rojo">
+		
+		<div id="juezR1">Juez 1</div>
+		<div id="juezR2">Juez 2</div>
+		<div id="juezR3">Juez 3</div>
+		<div id="juezR4">Juez 4</div>
+
+		<div id="pR1">-</div>
+		<div id="pR2">-</div>
+		<div id="pR3">-</div>
+		<div id="pR4">-</div>
+		
+		<div id="AdvertenciasR">Advertencias</div>
+		<div id="PtosContraR">Puntos en Contra</div>
+		<div id="advR">-</div>
+		<div id="contraR">-</div>
+
+		<div id="TotalR">Total:</div>
+		
 	</div>
+	<div id ="Azul">
+		<div id="juezA1">Juez 1</div>
+		<div id="juezA2">Juez 2</div>
+		<div id="juezA3">Juez 3</div>
+		<div id="juezA4">Juez 4</div>
+
+		<div id="pA1">-</div>
+		<div id="pA2">-</div>
+		<div id="pA3">-</div>
+		<div id="pA4">-</div>
+
+		<div id="AdvertenciasA">Advertencias</div>
+		<div id="PtosContraA">Puntos en Contra</div>
+		<div id="advA">-</div>
+		<div id="contraA">-</div>
+		<div id="TotalA">Total:</div>
+	</div>
+	<div id=countDownDiv>
+			<p id="countdown">00:00</p>
+	</div>
+	<select id="Tiempo" name="TIempo">
+		<option selected value="0">Tiempo</option>
+		<option value="1">1:00</option>
+		<option value="2">1:30</option>
+		<option value="3">2:00</option>
+	</select>
+	<select id="Round" name="Round">
+		<option selected value="0">Rounds</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+	<input type="button" id="Comenzar" value="Comenzar">
+	<input type="button" id="mas" value="+">
+	<input type="button" id="menos" value="-">
+
+	<div id="espera"></div>
+	
+
+	
+
+	<script src=js/jquery.min.js ></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,161 @@
+
+#Rojo{
+	background: #FC2828;
+	float: left;
+	width:  50%;
+	border: 8px solid #FFF;
+	height: 750px;
+	font-family: fantasy;
+	
+}
+
+
+
+
+#juezR1,#juezR2,#juezR3,#juezR4,#pR1,#pR2,#pR3,#pR4{
+	width: 25%;
+    
+    float: left;
+    font-size: 45px;
+    margin-top:50px;
+    text-align: center;
+}
+
+#juezR1,#juezR2,#juezR3,#juezR4{
+	height: 70px;
+}
+
+#pR1,#pR2,#pR3,#pR4{  
+	height: 100px;
+	font-family: "ARIAL", serif;
+}
+
+#AdvertenciasR,#PtosContraR,#advR,#contraR{
+	width: 50%;
+    float: left;
+    font-size: 40px;
+    margin-top: 4px;
+    text-align: center;
+
+}
+
+#AdvertenciasR,#PtosContraR{
+	height: 70px;
+}
+
+#advR,#contraR{
+	height: 100px;
+	font-family: "ARIAL", serif;
+}
+
+
+
+#TotalR{
+
+	width: 100%;
+    float: left;
+    font-size: 55px;
+    margin-top: 4px;
+    text-align: center;
+
+}
+
+#Azul{
+	background: #6884F8;
+	float: right;
+	width:  50%;
+	border: 8px solid #FFF;
+	height: 750px;
+	font-family: fantasy;
+}
+
+#juezA1,#juezA2,#juezA3,#juezA4,#pA1,#pA2,#pA3,#pA4{
+	width: 25%;
+    
+    float: left;
+    font-size: 45px;
+    margin-top:50px;
+    text-align: center;
+}
+
+#juezA1,#juezA2,#juezA3,#juezA4{
+	height: 70px;
+}
+
+#pA1,#pA2,#pA3,#pA4{  
+	height: 100px;
+	font-family: "ARIAL", serif;
+}
+
+#AdvertenciasA,#PtosContraA,#advA,#contraA{
+	width: 50%;
+    float: left;
+    font-size: 40px;
+    margin-top: 4px;
+    text-align: center;
+
+}
+
+#AdvertenciasA,#PtosContraA{
+	height: 70px;
+}
+
+#advA,#contraA{
+	height: 100px;
+	font-family: "ARIAL", serif;
+}
+
+
+
+#TotalA{
+
+	width: 100%;
+    float: left;
+    font-size: 55px;
+    margin-top: 4px;
+    text-align: center;
+
+}
+
+
+
+
+
+#countDownDiv{
+	background: white;
+    position: absolute;
+    top: 562px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 110px;
+}
+
+
+
+
+#Tiempo,#Round,#Comenzar,#mas,#menos{
+	
+	font-family: fantasy;
+	font-size: 25px;
+	border: none;
+}
+
+#mas,#menos{
+
+	float: right;
+	background: white;
+}
+
+#Comenzar{
+	position: absolute;
+	left:50%;
+	margin-left: -60px;
+	background: white;
+	font-size: 30px;
+}
